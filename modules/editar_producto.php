@@ -6,7 +6,7 @@ require_once "../config/conexion.php";
 include "../includes/header.php";
 include "../includes/sidebar.php";
 
-$id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
+$id = isset($_GET['id']) ? (int)$_GET['id'] : 0; 
 $msg = "";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
