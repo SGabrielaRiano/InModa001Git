@@ -21,7 +21,7 @@ $res = $mysqli->query("SELECT i.*, p.nombre as producto FROM inventario i LEFT J
                     <td><?= $r['movimiento'] ?></td>
                     <td><?= $r['cantidad'] ?></td>
                 </tr>
-            <?php endwhile; ?>
+            <?php endwhile; ?> 
             </tbody>
         </table>
     </div>
