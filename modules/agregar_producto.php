@@ -78,3 +78,4 @@ $provs = $mysqli->query("SELECT id, nombre FROM proveedores");
     </div>
 </main>
 <?php include "../includes/footer.php"; ?>
+
