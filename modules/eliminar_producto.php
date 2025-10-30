@@ -12,4 +12,4 @@ if ($id) {
     $stmt->close();
 }
 header("Location: productos.php");
-exit;
+exit; 
