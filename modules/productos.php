@@ -13,7 +13,7 @@ $sql = "SELECT p.*, c.nombre AS categoria_nombre, prov.nombre AS proveedor_nombr
         LEFT JOIN proveedores prov ON p.proveedor_id = prov.id
         ORDER BY p.id DESC";
 $res = $mysqli->query($sql);
-?>
+?> 
 <main class="main-content">
     <div class="main-header">
         <h1>Productos</h1>
